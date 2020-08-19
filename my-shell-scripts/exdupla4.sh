@@ -1,5 +1,5 @@
 #!/bin/bash
-#Vou ter muito sucesso na programação!!!
+#Eu sou Tryber e vou ter muito sucesso na programação!!!
 #ex4
 VARCAMINHO="/home/israel/Documentos/aulashell_1_5"
 if [ -e $VARCAMINHO  ]
