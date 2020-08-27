@@ -1,0 +1,90 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.header {
+  color: white;
+  background-color: grey;
+}
+
+.header h1 {
+  padding: 10px 20px;
+}
+
+.menu {
+  background-color: #8b8a8a;
+}
+
+.menu ul {
+  padding: 10px 20px;
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.artigo-sobre {
+  padding: 20px;
+}
+
+.artigo-sobre p {
+  margin-top: 10px;
+}
+
+.infos-gerais {
+  margin: 10px;
+  width: 70%;
+  display: inline-block;
+}
+
+.side-bar {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  padding: 10px;
+  width: 20%;
+}
+
+.info-detalhe {
+  width: 100%;
+}
+
+.info-detalhe h3 {
+  margin-top: 20px;
+}
+
+.info-detalhe img {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.video {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.video a {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.footer {
+  background-color: #8b8a8a;
+  padding: 20px;
+  text-align: center;
+}
