@@ -1,7 +1,6 @@
-let a = 10;
-let b = 3;
+let a = 11;
 
-let total = a % b;
+let total = a % 2;
 console.log(total);
 
 switch (total) {
