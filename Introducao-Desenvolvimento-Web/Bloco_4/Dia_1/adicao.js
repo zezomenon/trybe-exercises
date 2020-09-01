@@ -1,5 +1,8 @@
-let a = 10;
-let b = 20;
+let total = 0;
 
-let total = a + b;
+function soma(a, b) {
+  total = a + b;
+  return total;
+}
+soma(20, 20);
 console.log(total);
