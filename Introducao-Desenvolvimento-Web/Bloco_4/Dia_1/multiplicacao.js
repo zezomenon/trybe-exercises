@@ -1,5 +1,8 @@
-let a = 10;
-let b = 30;
+let total = 0;
 
-let total = a * b;
+function mult(a, b) {
+  total = a * b;
+  return total;
+}
+mult(2, 20);
 console.log(total);

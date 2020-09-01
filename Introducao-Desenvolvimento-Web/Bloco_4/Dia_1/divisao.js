@@ -1,5 +1,8 @@
-let a = 100;
-let b = 20;
+let total = 0;
 
-let total = a / b;
+function div(a, b) {
+  total = a / b;
+  return total;
+}
+div(40, 20);
 console.log(total);

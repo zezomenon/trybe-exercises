@@ -1,5 +1,8 @@
-let a = 60;
-let b = 10;
+let total = 0;
 
-let total = a - b;
+function sub(a, b) {
+  total = a - b;
+  return total;
+}
+sub(50, 20);
 console.log(total);
