@@ -65,7 +65,10 @@
       }
 
       // 6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-
+      let mostrarTexto = document.getElementsByTagName("p");
+      for (let i = 0; i < mostrarTexto.length; i += 1) {
+        console.log(mostrarTexto[i].innerText);
+      }
       
     </script>
   </body>
