@@ -60,10 +60,13 @@
       // 1
       let h1 = document.createElement("h1");
       let title = document.createTextNode("Exercício 5.2 - JavaScript DOM");
-      let addH1ToBody = h1.appendChild(title);
-      document.body.appendChild(addH1ToBody);
+      document.body.appendChild(h1);
+      h1.appendChild(title);
       
-      
+      // 2
+      let div = document.createElement("div");
+      document.body.appendChild(div);
+      div.className = "main-content";
     </script>
   </body>
 </html>
