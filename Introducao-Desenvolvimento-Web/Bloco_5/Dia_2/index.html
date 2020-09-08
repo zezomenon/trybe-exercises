@@ -64,9 +64,14 @@
       h1.appendChild(title);
       
       // 2
-      let div = document.createElement("div");
-      document.body.appendChild(div);
-      div.className = "main-content";
+      let divMain = document.createElement("div");
+      document.body.appendChild(divMain);
+      divMain.className = "main-content";
+
+      // 3
+      let divCenterContent = document.createElement("div");
+      document.querySelector(".main-content").appendChild(divCenterContent);
+
     </script>
   </body>
 </html>
