@@ -58,19 +58,24 @@
   <body class="body">
     <script>
       // 1
-      let h1 = document.createElement("h1");
-      let title = document.createTextNode("Exercício 5.2 - JavaScript DOM");
-      document.body.appendChild(h1);
-      h1.appendChild(title);
+      let tagH1 = document.createElement("h1");
+      document.querySelector(".body").appendChild(tagH1);
+      tagH1.textContent = "Exercício 5.2 - JavaScript DOM";
       
       // 2
       let divMain = document.createElement("div");
-      document.body.appendChild(divMain);
+      document.querySelector(".body").appendChild(divMain);
       divMain.className = "main-content";
 
       // 3
       let divCenterContent = document.createElement("div");
       document.querySelector(".main-content").appendChild(divCenterContent);
+      divCenterContent.className = "center-content";
+
+      // 4
+      let tagP = document.createElement("p");
+      document.querySelector(".center-content").appendChild(tagP);
+      tagP.textContent = "Aprendendo a manipular elementos com JS";
 
     </script>
   </body>
