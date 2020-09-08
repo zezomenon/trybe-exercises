@@ -55,9 +55,15 @@
       }
     </style>
   </head>
-  <body>
+  <body class="body">
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      // 1
+      let h1 = document.createElement("h1");
+      let title = document.createTextNode("Exercício 5.2 - JavaScript DOM");
+      let addH1ToBody = h1.appendChild(title);
+      document.body.appendChild(addH1ToBody);
+      
+      
     </script>
   </body>
 </html>
