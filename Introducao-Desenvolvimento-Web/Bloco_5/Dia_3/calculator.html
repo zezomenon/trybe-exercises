@@ -69,16 +69,33 @@
 
       let buttonPercentOfNumber = document.getElementById("percent-button");
       buttonPercentOfNumber.addEventListener("click", function () {
-        let inputPercentOfNumber = document.getElementById("percent1-input").value;
-        let inputPercentOfNumber2 = document.getElementById("percent2-input").value;
+        let inputPercentOfNumber = document.getElementById("percent1-input")
+          .value;
+        let inputPercentOfNumber2 = document.getElementById("percent2-input")
+          .value;
         if (inputPercentOfNumber < 0 && inputPercentOfNumber2 < 0) {
           return (document.getElementById("solution").innerHTML =
             "Número inválido!");
         } else {
-          let result = (inputPercentOfNumber  * 100) / inputPercentOfNumber2;
+          let result = (inputPercentOfNumber * 100) / inputPercentOfNumber2;
           return (document.getElementById(
             "solution"
           ).innerHTML = `${inputPercentOfNumber} is ${result}% of ${inputPercentOfNumber2}.`);
+        }
+      });
+
+      let buttonAreaCircleNumber = document.getElementById("area-button");
+      buttonAreaCircleNumber.addEventListener("click", function () {
+        let inputRadiusCircleNumber = document.getElementById("area-input")
+          .value;
+        if (inputRadiusCircleNumber < 0) {
+          return (document.getElementById("solution").innerHTML =
+            "Número inválido!");
+        } else {
+          let result = Math.PI * inputRadiusCircleNumber ** 2;
+          return (document.getElementById(
+            "solution"
+          ).innerHTML = `The area for a circle with radius ${inputRadiusCircleNumber} is ${result}.`);
         }
       });
     </script>
