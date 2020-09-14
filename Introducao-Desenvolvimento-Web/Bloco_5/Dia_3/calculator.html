@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <label
+      >Square this number:
+      <input type="number" id="square-input" size="2" />
+    </label>
+    <button id="square-button">Calculate</button>
+    <br /><br />
+
+    <label
+      >Half this number:
+      <input type="number" id="half-input" size="2" />
+    </label>
+    <button id="half-button">Calculate</button>
+    <br /><br />
+
+    <label>
+      Fraction:
+      <input type="number" id="percent1-input" size="2" />
+    </label>
+    <label>
+      Whole:
+      <input type="number" id="percent2-input" size="2" />
+    </label>
+    <button id="percent-button">Calculate</button>
+    <br /><br />
+
+    <label
+      >Calculate area of circle with radius:
+      <input type="number" id="area-input" size="2" />
+    </label>
+    <button id="area-button">Calculate</button>
+    <br /><br />
+    <div id="solution"></div>
+
+    <script>
+      let buttonSquareNumber = document.getElementById("square-button");
+      buttonSquareNumber.addEventListener("click", function () {
+        let inputSquareNumber = document.getElementById("square-input").value;
+        if (inputSquareNumber < 0) {
+          return (document.getElementById("solution").innerHTML =
+            "Número inválido!");
+        } else {
+          let result = inputSquareNumber ** 2;
+          return (document.getElementById(
+            "solution"
+          ).innerHTML = `The result of squaring the number ${inputSquareNumber} is ${result}.`);
+        }
+      });
+
+      let buttonHalfNumber = document.getElementById("half-button");
+      buttonHalfNumber.addEventListener("click", function () {
+        let inputHalfNumber = document.getElementById("half-input").value;
+        if (inputHalfNumber < 0) {
+          return (document.getElementById("solution").innerHTML =
+            "Número inválido!");
+        } else {
+          let result = inputHalfNumber / 2;
+          return (document.getElementById(
+            "solution"
+          ).innerHTML = `Half of ${inputHalfNumber} is ${result}.`);
+        }
+      });
+
+      let buttonPercentOfNumber = document.getElementById("percent-button");
+      buttonPercentOfNumber.addEventListener("click", function () {
+        let inputPercentOfNumber = document.getElementById("percent1-input")
+          .value;
+        let inputPercentOfNumber2 = document.getElementById("percent2-input")
+          .value;
+        if (inputPercentOfNumber < 0 && inputPercentOfNumber2 < 0) {
+          return (document.getElementById("solution").innerHTML =
+            "Número inválido!");
+        } else {
+          let result = (inputPercentOfNumber * 100) / inputPercentOfNumber2;
+          return (document.getElementById(
+            "solution"
+          ).innerHTML = `${inputPercentOfNumber} is ${result}% of ${inputPercentOfNumber2}.`);
+        }
+      });
+
+      let buttonAreaCircleNumber = document.getElementById("area-button");
+      buttonAreaCircleNumber.addEventListener("click", function () {
+        let inputRadiusCircleNumber = document.getElementById("area-input")
+          .value;
+        if (inputRadiusCircleNumber < 0) {
+          return (document.getElementById("solution").innerHTML =
+            "Número inválido!");
+        } else {
+          let result = Math.PI * inputRadiusCircleNumber ** 2;
+          return (document.getElementById(
+            "solution"
+          ).innerHTML = `The area for a circle with radius ${inputRadiusCircleNumber} is ${result}.`);
+        }
+      });
+    </script>
+  </body>
+</html>
