@@ -20,3 +20,9 @@ article.style.fontSize = fontSize.value;
 fontSize.addEventListener('input', function (event) {
   article.style.fontSize = `${event.target.value}px`;
 });
+
+let fontList = document.getElementById('fontList');
+bgBody.style.fontFamily = fontList.value;
+fontList.addEventListener('input', function (event) {
+  bgBody.style.fontFamily = `${event.target.value}, sans-serif`;
+});
