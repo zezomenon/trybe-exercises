@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo</title>
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="section">
+      <header>
+        <h1 class="title">Cadastro de Currículo</h1>
+      </header>
+    </section>
+
+    <section class="section">
+      <form action="" method="GET" class="resume-form" id="resume-form">
+        <div class="field">
+          <label class="label" for="full-name">Nome</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="name"
+              id="full-name"
+              maxlength="40"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="email">E-mail</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="email"
+              id="email"
+              maxlength="50"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="cpf">CPF</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="cpf"
+              id="cpf"
+              maxlength="11"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="address">Endereço</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="address"
+              id="address"
+              maxlength="200"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="city">Cidade</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="city"
+              id="city"
+              maxlength="28"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="uf">Estado</label>
+          <div class="control">
+            <div class="select">
+              <select name="" id="">
+                <option value="pr">PR</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Tipo</label>
+          <div class="control">
+            <label class="radio" for="apartment">
+              <input
+                type="radio"
+                name="type-home"
+                value="apartment"
+                id="apartment"
+                required
+              />
+              Apartamento
+            </label>
+            <label class="radio" for="house">
+              <input
+                type="radio"
+                name="type-home"
+                value="house"
+                id="house"
+                required
+              />
+              Casa
+            </label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="about">Resumo</label>
+          <div class="control">
+            <textarea
+              class="textarea"
+              name="about"
+              id="about"
+              cols="30"
+              rows="10"
+              maxlength="1000"
+              required
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="ocupation">Cargo</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="ocupation"
+              id="ocupation"
+              maxlength="40"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="description">Descrição do cargo</label>
+          <div class="control">
+            <input
+              class="input"
+              type="text"
+              name="description"
+              id="description"
+              maxlength="500"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="initial-date">Data de ínicio</label>
+          <div class="control">
+            <input class="input" type="date" name="initial-date" id="initial-date" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary" type="submit" id="save">Salvar</button>
+            <button class="button is-danger" type="submit" id="clear">Limpar</button>
+          </div>
+        </div>
+
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
