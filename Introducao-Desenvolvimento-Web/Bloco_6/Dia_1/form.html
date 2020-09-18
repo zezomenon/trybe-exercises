@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="title">
+    <h1>Cadastro de Currículo</h1>
+  </header>
+
+  <form action="" method="GET" class="resume-form">
+    <div class="content">
+      <fieldset class="data">
+        <legend>Dados pessoais</legend>
+        <div class="content-fieldset">
+          <div>
+            <label for="full-name">Nome</label>
+            <input type="text" name="name" id="full-name" maxlength="40" required>
+          </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" maxlength="50" required>
+          </div>
+
+          <div>
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" maxlength="11" required>
+          </div>
+
+          <div>
+            <label for="address">Endereço</label>
+            <input type="text" name="address" id="address" maxlength="200" required>
+          </div>
+
+          <div>
+            <label for="city">Cidade</label>
+            <input type="text" name="city" id="city" maxlength="28" required>
+          </div>
+
+          <div>
+            <label for="uf">Estado</label>
+            <input type="text" name="uf" id="uf" required>
+          </div>
+
+          <div>
+            <input type="radio" name="type-home" value="apartment" id="apartment" required>
+            <label for="apartment">Apartamento</label>
+            <input type="radio" name="type-home" value="house" id="house" required>
+            <label for="house">Casa</label>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <fieldset class="data">
+        <legend>Último emprego</legend>
+        <div class="content-fieldset">
+          <div>
+            <label for="about">Resumo</label>
+            <textarea name="about" id="about" cols="30" rows="10" maxlength="1000" required></textarea>
+          </div>
+
+          <div>
+            <label for="ocupation">Cargo</label>
+            <input type="text" name="ocupation" id="ocupation" maxlength="40" required>
+          </div>
+
+          <div>
+            <label for="description">Descrição do cargo</label>
+            <input type="text" name="description" id="description" maxlength="500" required>
+          </div>
+
+          <div>
+            <label for="initial-date">Data de ínicio</label>
+            <input type="text" name="initial-date" id="initial-date" required>
+          </div>
+
+        </div>
+      </fieldset>
+      
+    </div>
+
+  </form>
+
+  <div class="buttons">
+    <button type="submit" id="save">Salvar</button>
+    <button type="submit" id="clear">Limpar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
