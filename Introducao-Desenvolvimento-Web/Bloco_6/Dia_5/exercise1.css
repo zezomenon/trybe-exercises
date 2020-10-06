@@ -1,0 +1,25 @@
+body {
+  margin: 50px 20px;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: darkolivegreen;
+  }
+}
