@@ -1,0 +1,41 @@
+body {
+  background-color: silver;
+  font-family: montserrat, sans-serif;
+  color: black;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.title h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.title h2 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.article {
+  margin: 10px 200px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.options {
+  text-align: center;
+}
+
+.options label {
+  font-size: 13px;
+}
+
+.options p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+}
