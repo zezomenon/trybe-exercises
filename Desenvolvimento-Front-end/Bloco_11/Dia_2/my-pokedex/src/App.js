@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <h1>Pokedex</h1>
-        <Pokedex infoPokemons={pokemons}/>
+        <Pokedex infoPokemons={pokemons} />
       </div>
     );  
   }

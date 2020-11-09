@@ -5,7 +5,7 @@ class Pokedex extends React.Component {
   render() {
     const { infoPokemons } = this.props;
     return (
-      <div>
+      <div className='pokedex'>
         {infoPokemons.map(pokemon => <Pokemon key={pokemon.id} pokemon={pokemon} />)}
       </div>
     );
