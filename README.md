@@ -89,117 +89,124 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 11-1: _'Hello, world!' no React!_
 - [X] 11-2: _Componentes React_
-- [X] 11-3: _[Projeto - Movie Cards Library]()_
+- [X] 11-3: _[Projeto - Movie Cards Library](https://github.com/tryber/sd-07-project-movie-cards-library/tree/israelmlisboa-movie-cards-library)_
 
 ##### Bloco 12: React
 
 - [X] 12-1: _Components com estado_
 - [X] 12-2: _Eventos e formulários no React_
-- [X] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [X] 12-3: _[Projeto - Movie Cards Library Stateful](https://github.com/tryber/sd-07-project-movie-card-library-stateful/tree/israelmlisboa-movie-card-library-stateful)_
 
 ##### Bloco 13: React
 
 - [X] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
 - [X] 13-2: _Ciclo de vida de componentes em React_
 - [X] 13-3: _React Router_
-- [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [X] 13-4: _[Projeto - Movie Cards Library CRUD](https://github.com/tryber/sd-07-project-movie-card-library-crud/tree/israelmlisboa-project-movie-card-library-crud)_
 
 ##### Bloco 14: Metodologias ágeis
 
-- [ ] 14-1: _Metodologias ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+##### Projeto em grupo
+- [X] 14-1: _Metodologias ágeis_
+- [X] 14-2: _[Projeto - Frontend Online Store](https://github.com/tryber/sd-07-project-frontend-online-store/tree/main-group-35)_
 
 ##### Bloco 15: Testes em React
 
-- [ ] 15-1: _Testando React com a React Testing Library_
-- [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 15-3: _[Projeto - Testes em React]()_
+- [X] 15-1: _Testando React com a React Testing Library_
+- [X] 15-2: _Testando React com a React Testing Library - Parte 2_
+- [X] 15-3: _[Projeto - Testes em React](https://github.com/tryber/sd-07-project-react-testing-library/tree/israelmlisboa-react-testing-library)_
 
 ##### Bloco 16: Introdução ao Redux
 
-- [ ] 16-1: _Introdução ao Redux_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes sí­ncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [X] 16-1: _Introdução ao Redux_
+- [X] 16-2: _React com Redux - Parte 1_
+- [X] 16-3: _React com Redux - Prática_
+- [X] 16-4: _React com Redux - Parte 2_
+- [X] 16-5: _Testes síncronos com React-Redux_
+- [x] 16-6: _[Projeto - Tabela com filtros de dados](https://github.com/tryber/sd-07-project-trybewallet/tree/israelmlisboa-trybewallet)_
 
 ##### Bloco 17: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+##### Projeto em grupo
+- [X] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-07-project-trivia-react-redux/tree/main-group-37)_
 
 ##### Bloco 18: React & Context API
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 18-1: _Context API do React_
+- [X] 18-2: _React Hooks - useState e useContext_
+- [X] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [X] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/tryber/sd-07-project-starwars-datatable-hooks/tree/israelmlisboa-react-context-hooks-starwars-datatable-filters)_
 
 ##### Bloco 19: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+##### Projeto em grupo
+- [X] 19-1: _[Projeto - App de Receitas](https://github.com/tryber/sd-07-project-recipes-app/tree/main-group-7)_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especí­fica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [X] 20-1: _Banco de dados SQL_
+- [X] 20-2: _Encontrando dados em um banco de dados_
+- [X] 20-3: _Filtrando dados de forma específica_
+- [X] 20-4: _Manipulando tabelas_
+- [X] 20-5: _[Projeto - All For One](https://github.com/tryber/sd-07-mysql-all-for-one/tree/israelmlisboa-mysql-all-for-one)_
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [X] 21-1: _Funções mais usadas no SQL_
+- [X] 21-2: _Descomplicando JOINs e UNIONs_
+- [X] 21-3: _Stored Routines & Subqueries_
+- [X] 21-4: _[Projeto - Vocabulary Booster](https://github.com/tryber/sd-07-mysql-vocabulary-booster/tree/israelmlisboa-mysql-vocabulary-booster)_
 
 ##### Bloco 22: Bancos de dados relacionais
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [X] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [X] 22-2: _Normalização, Formas Normais e Dumps_
+- [X] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [X] 22-3: _[Projeto - One For All](https://github.com/tryber/sd-07-mysql-one-for-all/tree/israelmlisboa-mysql-one-for-all)_
 
 ##### Bloco 23: Introdução - NoSQL
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [X] 23-1: _MongoDB - Introdução_
+- [X] 23-2: _Filter Operators_
+- [X] 23-3: _[Projeto - Data Flights](https://github.com/tryber/sd-07-mongodb-dataflights/tree/israelmlisboa-mongodb-dataflights)_
 
 ##### Bloco 24: Updates
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+- [X] 24-1: _Updates Simples_
+- [X] 24-2: _Updates Complexos - Arrays - Parte 1_
+- [X] 24-3: _Updates Complexos - Arrays - Parte 2_
+- [X] 24-4: _[Projeto - Commerce](https://github.com/tryber/sd-07-mongodb-commerce/tree/israelmlisboa-mongodb-commerce)_
 
 ##### Bloco 25: Aggregation Framework
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
+- [X] 25-1: _Aggregation Framework - Part 1_
+- [X] 25-2: _Aggregation Framework - Part 2_
 - [ ] 25-3: _[Projeto - Aggregations]()_
 
 ##### Bloco 26: Intro - NodeJS
 
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assí­ncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+- [X] 26-1: _NodeJS - Introdução_
+- [X] 26-2: _NodeJS - Fluxo Assíncrono_
+- [X] 26-3: _NodeJS - Arquitetura_
+- [X] 26-4: _NodeJS - Express: HTTP com Node.js_
+- [X] 26-5: _NodeJS - Praticando Express_
+- [X] 26-6: _[Projeto - Crush Manager](https://github.com/tryber/sd-07-crush-manager/tree/israelmlisboa-crush-manager)_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+- [ ] 27-1: _Introdução - Arquitetura de Software_
+- [ ] 27-1: _Arquitetura de Software - Camada de Model_
+- [ ] 27-2: _Arquitetura de Software - Camada de Controller e Service_
+- [ ] 27-3: _Arquitetura web - Rest e Restful_
+- [ ] 27-4: _[Projeto - Store Manager]()_
 
-##### Bloco 28: NodeJS
+##### Bloco 28: NodeJS: Autenticação e Upload de Arquivos
 
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+- [ ] 28-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 28-2: _NodeJS - Upload de arquivos com Multer_
+- [ ] 28-3: _[Projeto - Cookmaster]()_
 
 ##### Bloco 29: NodeJS
 
